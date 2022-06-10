@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>9077 Coins price in 167 Fiat currencies</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta content="9077 Coins price in 167 Fiat currencies" name="description" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VLS7JPFSN9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-VLS7JPFSN9');
+    </script>
+    <style>
+    ul, ol {
+        list-style: none;
+        padding: 0;
+    }
+    li {
+    }
+    li:hover {
+    }
+    li a {
+        display: block;
+        border: 3px solid black;
+        text-decoration: none;
+        color: unset;
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 25px;
+        text-align: left;
+    }
+    li a:link {
+        background: white;
+    }
+    li a:visited {
+        background: #f0f8ff;
+    }
+    li a:hover {
+        text-decoration: none;
+        color: unset;
+        background: black;
+        color: white;
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <div class="col-lg-8 mx-auto p-3">
+        <div class="text-center"><a href="https://cryptony.app"><img src="https://cryptony.app/img/cryptony-logo.png" width="80" height="80"></a></div>
+        <h1 class="text-center">9077 Coins price in 167 Fiat currencies</h1>
+        <br/>
+        
+        <div class="input-group input-group-lg">
+          <span class="input-group-text" id="inputGroup-sizing-lg">Search</span>
+          <input type="text" id="searchInput" onkeyup="Search()" placeholder="coin or currency" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+          <button class="btn btn-outline-secondary" type="button" onclick="document.getElementById('searchInput').value = '';document.getElementById('searchInput').focus();Search()">X</button>
+        </div>
+        <br/>
+        
+        <ul id="searchOL">
+        
+        <li>
+        <a href='/price/doge/'>
+            Dogecoin (DOGE) price in 167 Fiat currencies
+        </a>
+        </li>
+    
+        </ul>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script>
+        function getUrlParameter(sParam) {
+            var sPageURL = window.location.search.substring(1),
+                sURLVariables = sPageURL.split('&'),
+                sParameterName,
+                i;
+
+            for (i = 0; i < sURLVariables.length; i++) {
+                sParameterName = sURLVariables[i].split('=');
+
+                if (sParameterName[0] === sParam) {
+                    return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+                }
+            }
+            return false;
+        };
+        
+        function updateURLParameter(url, param, paramVal)
+        {
+            var TheAnchor = null;
+            var newAdditionalURL = "";
+            var tempArray = url.split("?");
+            var baseURL = tempArray[0];
+            var additionalURL = tempArray[1];
+            var temp = "";
+
+            if (additionalURL) 
+            {
+                var tmpAnchor = additionalURL.split("#");
+                var TheParams = tmpAnchor[0];
+                    TheAnchor = tmpAnchor[1];
+                if(TheAnchor)
+                    additionalURL = TheParams;
+
+                tempArray = additionalURL.split("&");
+
+                for (var i=0; i<tempArray.length; i++)
+                {
+                    if(tempArray[i].split('=')[0] != param)
+                    {
+                        newAdditionalURL += temp + tempArray[i];
+                        temp = "&";
+                    }
+                }        
+            }
+            else
+            {
+                var tmpAnchor = baseURL.split("#");
+                var TheParams = tmpAnchor[0];
+                    TheAnchor  = tmpAnchor[1];
+
+                if(TheParams)
+                    baseURL = TheParams;
+            }
+
+            if(TheAnchor)
+                paramVal += "#" + TheAnchor;
+
+            var rows_txt = temp + "" + param + "=" + paramVal;
+            return baseURL + "?" + newAdditionalURL + rows_txt;
+        }
+        
+        function Search() {
+            var input, filter, ul, li, a, i;
+            input = document.getElementById("searchInput");
+            window.history.replaceState('', '', updateURLParameter(window.location.href, "search", input.value));
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("searchOL");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                if (a.textContent.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+        
+        window.addEventListener('load', function () {
+            var today = new Date();
+            var date = today.getFullYear()+'.'+(today.getMonth()+1)+'.'+today.getDate();
+            console.log(date);
+            //document.getElementById("today").innerHTML = date;
+            
+            var search = getUrlParameter("search");
+            if(search)
+            {
+                document.getElementById("searchInput").value = search;
+                Search();
+            }
+        });
+        </script>
+    </div>
+</body>
+</html>
