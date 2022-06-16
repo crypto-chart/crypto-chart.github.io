@@ -364,12 +364,12 @@ else
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Flux (FLUX) price in <?=$currency_name?></title>
+    <title>Datamine FLUX (FLUX) price in <?=$currency_name?></title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
-    <meta content="Flux (FLUX) price in <?=$currency_name?>" name="description" />
+    <meta content="Datamine FLUX (FLUX) price in <?=$currency_name?>" name="description" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VLS7JPFSN9"></script>
     <script>
@@ -388,41 +388,41 @@ else
 <body>
     <div class="col-lg-8 mx-auto p-3 wrapper">
         <div class="text-center"><a href="https://cryptony.app"><img src="https://cryptony.app/img/cryptony-logo.png" width="80" height="80"/></a></div>
-        <h1 class="text-center">Current Flux (FLUX) price in <?=$currency_name?></h1>
+        <h1 class="text-center">Current Datamine FLUX (FLUX) price in <?=$currency_name?></h1>
         <p class="text-center">Date: <span id="today">Loading...</span></p>
         <div class="text-center"><button class="btn btn-lg btn-secondary" onclick="window.print()"><i class="bi bi-filetype-pdf"></i> Print</button></div>
         <br/>
         
         <h2>Current FLUX price in <?=$currency_uppercase?></h2>
-        <div class="cb-widget" data-asset-symbol="FLUX" data-asset-id="5a0f9f28-3e49-54d0-975e-6bb4895f7dfc" data-period="all" data-show-chart="false" data-show-stats="false" data-locale="en" data-country="US" data-base="<?=$currency_uppercase?>" data-slug="zel"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
+        <div class="cb-widget" data-asset-symbol="FLUX" data-asset-id="f48789b4-69bc-5fdf-a93b-ade50f11391d" data-period="all" data-show-chart="false" data-show-stats="false" data-locale="en" data-country="US" data-base="<?=$currency_uppercase?>" data-slug="flux"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
         <br/>
         
         <h2>FLUX stats</h2>
-        <div class="cb-widget" data-asset-symbol="FLUX" data-asset-id="5a0f9f28-3e49-54d0-975e-6bb4895f7dfc" data-period="all" data-show-chart="false" data-show-stats="true" data-locale="en" data-country="US" data-base="<?=$currency_uppercase?>" data-slug="zel"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
+        <div class="cb-widget" data-asset-symbol="FLUX" data-asset-id="f48789b4-69bc-5fdf-a93b-ade50f11391d" data-period="all" data-show-chart="false" data-show-stats="true" data-locale="en" data-country="US" data-base="<?=$currency_uppercase?>" data-slug="flux"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
         <br/>
         
         <h2>FLUX price in <?=$currency_uppercase?> (All time - ALL)</h2>
-        <div class="cb-widget" data-asset-symbol="FLUX" data-asset-id="5a0f9f28-3e49-54d0-975e-6bb4895f7dfc" data-period="all" data-show-chart="true" data-show-stats="false" data-locale="en" data-country="US" data-base="<?=$currency_uppercase?>" data-slug="zel"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
+        <div class="cb-widget" data-asset-symbol="FLUX" data-asset-id="f48789b4-69bc-5fdf-a93b-ade50f11391d" data-period="all" data-show-chart="true" data-show-stats="false" data-locale="en" data-country="US" data-base="<?=$currency_uppercase?>" data-slug="flux"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
         <br/>
         
         <h2>FLUX price in <?=$currency_uppercase?> (1 Year)</h2>
-        <div class="cb-widget" data-asset-symbol="FLUX" data-asset-id="5a0f9f28-3e49-54d0-975e-6bb4895f7dfc" data-period="year" data-show-chart="true" data-show-stats="false" data-locale="en" data-country="US" data-base="<?=$currency_uppercase?>" data-slug="zel"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
+        <div class="cb-widget" data-asset-symbol="FLUX" data-asset-id="f48789b4-69bc-5fdf-a93b-ade50f11391d" data-period="year" data-show-chart="true" data-show-stats="false" data-locale="en" data-country="US" data-base="<?=$currency_uppercase?>" data-slug="flux"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
         <br/>
         
         <h2>FLUX price in <?=$currency_uppercase?> (1 Month - 1M)</h2>
-        <div class="cb-widget" data-asset-symbol="FLUX" data-asset-id="5a0f9f28-3e49-54d0-975e-6bb4895f7dfc" data-period="month" data-show-chart="true" data-show-stats="true" data-locale="en" data-country="US" data-base="<?=$currency_uppercase?>" data-slug="zel"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
+        <div class="cb-widget" data-asset-symbol="FLUX" data-asset-id="f48789b4-69bc-5fdf-a93b-ade50f11391d" data-period="month" data-show-chart="true" data-show-stats="true" data-locale="en" data-country="US" data-base="<?=$currency_uppercase?>" data-slug="flux"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
         <br/>
         
         <h2>FLUX price in <?=$currency_uppercase?> (1 Week - 1W)</h2>
-        <div class="cb-widget" data-asset-symbol="FLUX" data-asset-id="5a0f9f28-3e49-54d0-975e-6bb4895f7dfc" data-period="week" data-show-chart="true" data-show-stats="false" data-locale="en" data-country="US" data-base="<?=$currency_uppercase?>" data-slug="zel"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
+        <div class="cb-widget" data-asset-symbol="FLUX" data-asset-id="f48789b4-69bc-5fdf-a93b-ade50f11391d" data-period="week" data-show-chart="true" data-show-stats="false" data-locale="en" data-country="US" data-base="<?=$currency_uppercase?>" data-slug="flux"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
         <br/>
         
         <h2>FLUX price in <?=$currency_uppercase?> (24 Hours - 24H)</h2>
-        <div class="cb-widget" data-asset-symbol="FLUX" data-asset-id="5a0f9f28-3e49-54d0-975e-6bb4895f7dfc" data-period="day" data-show-chart="true" data-show-stats="false" data-locale="en" data-country="US" data-base="<?=$currency_uppercase?>" data-slug="zel"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
+        <div class="cb-widget" data-asset-symbol="FLUX" data-asset-id="f48789b4-69bc-5fdf-a93b-ade50f11391d" data-period="day" data-show-chart="true" data-show-stats="false" data-locale="en" data-country="US" data-base="<?=$currency_uppercase?>" data-slug="flux"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
         <br/>
         
         <h2>FLUX price in <?=$currency_uppercase?> (1 Hour - 1H)</h2>
-        <div class="cb-widget" data-asset-symbol="FLUX" data-asset-id="5a0f9f28-3e49-54d0-975e-6bb4895f7dfc" data-period="hour" data-show-chart="true" data-show-stats="false" data-locale="en" data-country="US" data-base="<?=$currency_uppercase?>" data-slug="zel"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
+        <div class="cb-widget" data-asset-symbol="FLUX" data-asset-id="f48789b4-69bc-5fdf-a93b-ade50f11391d" data-period="hour" data-show-chart="true" data-show-stats="false" data-locale="en" data-country="US" data-base="<?=$currency_uppercase?>" data-slug="flux"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
         <br/>
         
         <div class="text-center"><a href="/price/flux"><button class="btn btn-lg btn-primary"><i class="bi bi-arrow-left-square"></i> See all FLUX prices</button></a></div>
