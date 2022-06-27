@@ -13,6 +13,18 @@
   <priority>1.00</priority>
 </url>    
 
+<url>
+  <loc>https://crypto-chart.github.io/crypto-charts/</loc>
+  <lastmod>2022-06-20T18:06:43+02:00</lastmod>
+  <priority>1.00</priority>
+</url>
+
+<url>
+  <loc>https://crypto-chart.github.io/crypto-chart/</loc>
+  <lastmod>2022-06-20T18:06:43+02:00</lastmod>
+  <priority>1.00</priority>
+</url>
+
     <url>
       <loc>https://crypto-chart.github.io/b/price/btc/</loc>
       <lastmod>2022-06-20T18:06:43+02:00</lastmod>
