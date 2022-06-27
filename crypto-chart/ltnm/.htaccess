@@ -1,0 +1,4 @@
+RewriteEngine on
+#https://www.regextester.com/111112
+RewriteRule ^(([a-z0-9\-]+/)*[a-z0-9\-]+)$ price.php?currency=$1 [L,QSA,NC]
+RewriteRule ^(([a-z0-9\-]+/)*[a-z0-9\-]+)/$ price.php?currency=$1 [L,QSA,NC]
